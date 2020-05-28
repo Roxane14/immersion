@@ -1,0 +1,465 @@
+fileFormatVersion: 2
+guid: e73a818f4f8111347a0a65ff804a4960
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: actionneur
+    100002: //RootNode
+    100004: attache_cable
+    100006: attache_cable.001
+    100008: attache_cable.002
+    100010: attache_cable.003
+    100012: base tige
+    100014: bati
+    100016: BezierCurve
+    100018: bouton rotatif
+    100020: bouton rotatif.001
+    100022: bouton rotatif.002
+    100024: bouton rotatif.003
+    100026: cable
+    100028: cable.001
+    100030: cable.002
+    100032: cable.003
+    100034: cadran
+    100036: Cube
+    100038: Cube.001
+    100040: Cube.005
+    100042: Cylinder.002
+    100044: Cylinder.003
+    100046: Cylinder.006
+    100048: Cylinder.007
+    100050: element1
+    100052: element1.001
+    100054: element11
+    100056: element2
+    100058: element2.001
+    100060: element3
+    100062: element3.001
+    100064: element3.002
+    100066: element3b
+    100068: element3b.001
+    100070: element4
+    100072: element5
+    100074: element5.001
+    100076: element6
+    100078: element7
+    100080: element8
+    100082: element9
+    100084: objectif
+    100086: objectif.001
+    100088: objectif.002
+    100090: plaque support
+    100092: potard
+    100094: potard.001
+    100096: support_objectif
+    100098: support_objectif.001
+    100100: switch
+    100102: switch.001
+    100104: switch.002
+    100106: switch.003
+    100108: switch.004
+    100110: switch.005
+    100112: tige
+    100114: voyant
+    100116: voyant.001
+    100118: voyant.002
+    100120: voyant.003
+    100122: voyant.004
+    400000: actionneur
+    400002: //RootNode
+    400004: attache_cable
+    400006: attache_cable.001
+    400008: attache_cable.002
+    400010: attache_cable.003
+    400012: base tige
+    400014: bati
+    400016: BezierCurve
+    400018: bouton rotatif
+    400020: bouton rotatif.001
+    400022: bouton rotatif.002
+    400024: bouton rotatif.003
+    400026: cable
+    400028: cable.001
+    400030: cable.002
+    400032: cable.003
+    400034: cadran
+    400036: Cube
+    400038: Cube.001
+    400040: Cube.005
+    400042: Cylinder.002
+    400044: Cylinder.003
+    400046: Cylinder.006
+    400048: Cylinder.007
+    400050: element1
+    400052: element1.001
+    400054: element11
+    400056: element2
+    400058: element2.001
+    400060: element3
+    400062: element3.001
+    400064: element3.002
+    400066: element3b
+    400068: element3b.001
+    400070: element4
+    400072: element5
+    400074: element5.001
+    400076: element6
+    400078: element7
+    400080: element8
+    400082: element9
+    400084: objectif
+    400086: objectif.001
+    400088: objectif.002
+    400090: plaque support
+    400092: potard
+    400094: potard.001
+    400096: support_objectif
+    400098: support_objectif.001
+    400100: switch
+    400102: switch.001
+    400104: switch.002
+    400106: switch.003
+    400108: switch.004
+    400110: switch.005
+    400112: tige
+    400114: voyant
+    400116: voyant.001
+    400118: voyant.002
+    400120: voyant.003
+    400122: voyant.004
+    2100000: alligneur_metal
+    2100002: aligneur_bati
+    2100004: alligneur_plastique_noir
+    2100006: alligneur_bati_plastique
+    2100008: alligneur_metal_noir
+    2100010: No Name
+    2100012: alligneur_cable
+    2100014: alligneur_voyant_blanc
+    2100016: alligneur_voyant_vert
+    2100018: alligneur_voyant_rouge
+    2100020: alligneur_voyant_bleu
+    2100022: alligneur_voyant_orange
+    2300000: actionneur
+    2300002: attache_cable
+    2300004: attache_cable.001
+    2300006: attache_cable.002
+    2300008: attache_cable.003
+    2300010: base tige
+    2300012: bati
+    2300014: BezierCurve
+    2300016: bouton rotatif
+    2300018: bouton rotatif.001
+    2300020: bouton rotatif.002
+    2300022: bouton rotatif.003
+    2300024: cable
+    2300026: cable.001
+    2300028: cable.002
+    2300030: cable.003
+    2300032: cadran
+    2300034: Cube
+    2300036: Cube.001
+    2300038: Cube.005
+    2300040: Cylinder.002
+    2300042: Cylinder.003
+    2300044: Cylinder.006
+    2300046: Cylinder.007
+    2300048: element1
+    2300050: element1.001
+    2300052: element11
+    2300054: element2
+    2300056: element2.001
+    2300058: element3
+    2300060: element3.001
+    2300062: element3.002
+    2300064: element3b
+    2300066: element3b.001
+    2300068: element4
+    2300070: element5
+    2300072: element5.001
+    2300074: element6
+    2300076: element7
+    2300078: element8
+    2300080: element9
+    2300082: objectif
+    2300084: objectif.001
+    2300086: objectif.002
+    2300088: plaque support
+    2300090: potard
+    2300092: potard.001
+    2300094: support_objectif
+    2300096: support_objectif.001
+    2300098: switch
+    2300100: switch.001
+    2300102: switch.002
+    2300104: switch.003
+    2300106: switch.004
+    2300108: switch.005
+    2300110: tige
+    2300112: voyant
+    2300114: voyant.001
+    2300116: voyant.002
+    2300118: voyant.003
+    2300120: voyant.004
+    3300000: actionneur
+    3300002: attache_cable
+    3300004: attache_cable.001
+    3300006: attache_cable.002
+    3300008: attache_cable.003
+    3300010: base tige
+    3300012: bati
+    3300014: BezierCurve
+    3300016: bouton rotatif
+    3300018: bouton rotatif.001
+    3300020: bouton rotatif.002
+    3300022: bouton rotatif.003
+    3300024: cable
+    3300026: cable.001
+    3300028: cable.002
+    3300030: cable.003
+    3300032: cadran
+    3300034: Cube
+    3300036: Cube.001
+    3300038: Cube.005
+    3300040: Cylinder.002
+    3300042: Cylinder.003
+    3300044: Cylinder.006
+    3300046: Cylinder.007
+    3300048: element1
+    3300050: element1.001
+    3300052: element11
+    3300054: element2
+    3300056: element2.001
+    3300058: element3
+    3300060: element3.001
+    3300062: element3.002
+    3300064: element3b
+    3300066: element3b.001
+    3300068: element4
+    3300070: element5
+    3300072: element5.001
+    3300074: element6
+    3300076: element7
+    3300078: element8
+    3300080: element9
+    3300082: objectif
+    3300084: objectif.001
+    3300086: objectif.002
+    3300088: plaque support
+    3300090: potard
+    3300092: potard.001
+    3300094: support_objectif
+    3300096: support_objectif.001
+    3300098: switch
+    3300100: switch.001
+    3300102: switch.002
+    3300104: switch.003
+    3300106: switch.004
+    3300108: switch.005
+    3300110: tige
+    3300112: voyant
+    3300114: voyant.001
+    3300116: voyant.002
+    3300118: voyant.003
+    3300120: voyant.004
+    4300000: Cube.001
+    4300002: element5.001
+    4300004: actionneur
+    4300006: Cube
+    4300008: bouton rotatif.003
+    4300010: bouton rotatif.002
+    4300012: bouton rotatif.001
+    4300014: bouton rotatif
+    4300016: base tige
+    4300018: element11
+    4300020: tige
+    4300022: element3.002
+    4300024: plaque support
+    4300026: switch.005
+    4300028: cadran
+    4300030: objectif.002
+    4300032: support_objectif.001
+    4300034: objectif.001
+    4300036: objectif
+    4300038: support_objectif
+    4300040: attache_cable.001
+    4300042: cable.003
+    4300044: cable.002
+    4300046: attache_cable.003
+    4300048: element3.001
+    4300050: element3b.001
+    4300052: element3b
+    4300054: element3
+    4300056: element2.001
+    4300058: element2
+    4300060: voyant.004
+    4300062: voyant.003
+    4300064: voyant.002
+    4300066: voyant.001
+    4300068: element1.001
+    4300070: element1
+    4300072: Cylinder.007
+    4300074: Cube.005
+    4300076: Cylinder.006
+    4300078: element8
+    4300080: cable.001
+    4300082: attache_cable
+    4300084: element7
+    4300086: cable
+    4300088: attache_cable.002
+    4300090: Cylinder.003
+    4300092: BezierCurve
+    4300094: Cylinder.002
+    4300096: element6
+    4300098: element5
+    4300100: element4
+    4300102: potard.001
+    4300104: potard
+    4300106: switch.004
+    4300108: switch.003
+    4300110: switch.002
+    4300112: switch.001
+    4300114: switch
+    4300116: voyant
+    4300118: bati
+    4300120: element9
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aligneur_bati
+    second: {fileID: 2100000, guid: d0fa31850cdc038449eca742ffb80ef8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alligneur_bati_plastique
+    second: {fileID: 2100000, guid: 9ed563430f85821479a37cff866466a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alligneur_cable
+    second: {fileID: 2100000, guid: 349c25a696381b84faca3eb8948eec7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alligneur_metal
+    second: {fileID: 2100000, guid: f742f181ba681094cbec923f7f2df67b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alligneur_metal_noir
+    second: {fileID: 2100000, guid: 7cb2efd896eb000479a5924af8084f2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alligneur_plastique_noir
+    second: {fileID: 2100000, guid: a2830076bb84c38498f89d8998ccd695, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alligneur_voyant_blanc
+    second: {fileID: 2100000, guid: de82cf807487b55468b0c9b9a22949f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alligneur_voyant_bleu
+    second: {fileID: 2100000, guid: 9847e3b9c0cea544a87d8f10286dc985, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alligneur_voyant_orange
+    second: {fileID: 2100000, guid: cfa6da9f5958e5845a710a34313be2d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alligneur_voyant_rouge
+    second: {fileID: 2100000, guid: c66f4dd39819b804e8cf8026c6fe2f6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alligneur_voyant_vert
+    second: {fileID: 2100000, guid: dc1a68eac219ee84c87ca63b20f4b80d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

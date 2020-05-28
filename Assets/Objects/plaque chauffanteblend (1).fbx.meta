@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: c43b089b37fc48942a1efd4f1d40b228
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bolt
+    100002: bouton
+    100004: boutons
+    100006: ecran
+    100008: inter2
+    100010: interrupteur
+    100012: lcd
+    100014: plaque
+    100016: //RootNode
+    100018: plateau
+    100020: vis
+    400000: Bolt
+    400002: bouton
+    400004: boutons
+    400006: ecran
+    400008: inter2
+    400010: interrupteur
+    400012: lcd
+    400014: plaque
+    400016: //RootNode
+    400018: plateau
+    400020: vis
+    2100000: plaque_lcd
+    2100002: plaque_plateau
+    2100004: plaque_metal
+    2100006: No Name
+    2100008: plaque_ecran
+    2100010: plaque_metal-brillant
+    2300000: Bolt
+    2300002: bouton
+    2300004: boutons
+    2300006: ecran
+    2300008: inter2
+    2300010: interrupteur
+    2300012: lcd
+    2300014: plaque
+    2300016: plateau
+    2300018: vis
+    3300000: Bolt
+    3300002: bouton
+    3300004: boutons
+    3300006: ecran
+    3300008: inter2
+    3300010: interrupteur
+    3300012: lcd
+    3300014: plaque
+    3300016: plateau
+    3300018: vis
+    4300000: lcd
+    4300002: plateau
+    4300004: vis
+    4300006: inter2
+    4300008: ecran
+    4300010: bouton
+    4300012: Bolt
+    4300014: interrupteur
+    4300016: boutons
+    4300018: plaque
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: c4b3b760c95fe7340932af26b0f07dd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plaque_ecran
+    second: {fileID: 2100000, guid: 02ee56e11dd521a4e9bc168f579e1d47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plaque_lcd
+    second: {fileID: 2100000, guid: fa1d7663468c5df4a999d6fe59f24c95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plaque_metal
+    second: {fileID: 2100000, guid: a5f13e1f4db98bf43a433c16506b6790, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plaque_metal-brillant
+    second: {fileID: 2100000, guid: bf377956a18a1cd4796dbdc62e94e799, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plaque_plateau
+    second: {fileID: 2100000, guid: f2a79a317cacf3742b90e7b4e3c5b61b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 08da0f397d6b8ea489b46183d41c0878
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: base ronde grde
+    100002: base ronde pte
+    100004: Cube
+    100006: Cube.001
+    100008: eq1
+    100010: eq2
+    100012: //RootNode
+    100014: molette1
+    100016: occ bas 1
+    100018: occ bas 2
+    100020: occ1
+    100022: occ2
+    100024: pied
+    100026: rond vision
+    100028: rond vision 2
+    100030: rond vision 2.001
+    100032: support arrondi
+    100034: support occ
+    100036: triangle
+    100038: triangle haut
+    100040: vision
+    100042: vision support
+    400000: base ronde grde
+    400002: base ronde pte
+    400004: Cube
+    400006: Cube.001
+    400008: eq1
+    400010: eq2
+    400012: //RootNode
+    400014: molette1
+    400016: occ bas 1
+    400018: occ bas 2
+    400020: occ1
+    400022: occ2
+    400024: pied
+    400026: rond vision
+    400028: rond vision 2
+    400030: rond vision 2.001
+    400032: support arrondi
+    400034: support occ
+    400036: triangle
+    400038: triangle haut
+    400040: vision
+    400042: vision support
+    2100000: micro pied metal
+    2100002: micro plastic
+    2100004: No Name
+    2100006: micro plaque
+    2300000: base ronde grde
+    2300002: base ronde pte
+    2300004: Cube
+    2300006: Cube.001
+    2300008: eq1
+    2300010: eq2
+    2300012: molette1
+    2300014: occ bas 1
+    2300016: occ bas 2
+    2300018: occ1
+    2300020: occ2
+    2300022: pied
+    2300024: rond vision
+    2300026: rond vision 2
+    2300028: rond vision 2.001
+    2300030: support arrondi
+    2300032: support occ
+    2300034: triangle
+    2300036: triangle haut
+    2300038: vision
+    2300040: vision support
+    3300000: base ronde grde
+    3300002: base ronde pte
+    3300004: Cube
+    3300006: Cube.001
+    3300008: eq1
+    3300010: eq2
+    3300012: molette1
+    3300014: occ bas 1
+    3300016: occ bas 2
+    3300018: occ1
+    3300020: occ2
+    3300022: pied
+    3300024: rond vision
+    3300026: rond vision 2
+    3300028: rond vision 2.001
+    3300030: support arrondi
+    3300032: support occ
+    3300034: triangle
+    3300036: triangle haut
+    3300038: vision
+    3300040: vision support
+    4300000: pied
+    4300002: triangle
+    4300004: vision
+    4300006: rond vision 2.001
+    4300008: molette1
+    4300010: occ2
+    4300012: occ1
+    4300014: occ bas 2
+    4300016: occ bas 1
+    4300018: support occ
+    4300020: support arrondi
+    4300022: vision support
+    4300024: triangle haut
+    4300026: rond vision 2
+    4300028: rond vision
+    4300030: eq2
+    4300032: eq1
+    4300034: Cube.001
+    4300036: base ronde pte
+    4300038: base ronde grde
+    4300040: Cube
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 6e40f1fddb8f11f479e25ac2f52a9380, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micro pied metal
+    second: {fileID: 2100000, guid: 5a03ab246cbc8284ab3a2633dea9209f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micro plaque
+    second: {fileID: 2100000, guid: 1d10a2e62004f0d4887d3be161574884, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: micro plastic
+    second: {fileID: 2100000, guid: fe0447db3a2a01a47b57a0030a348177, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

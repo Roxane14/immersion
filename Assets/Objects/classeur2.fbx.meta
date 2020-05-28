@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: 0753b25071167084fa6b4f579103b113
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: anneau1
+    100002: anneau2
+    100004: //RootNode
+    100006: etiquette
+    100008: exterieur
+    100010: metal
+    100012: trou
+    400000: anneau1
+    400002: anneau2
+    400004: //RootNode
+    400006: etiquette
+    400008: exterieur
+    400010: metal
+    400012: trou
+    2100000: Classeur_Metal
+    2100002: Classeur_Etiquette
+    2100004: Classeur_Couleur
+    2300000: anneau1
+    2300002: anneau2
+    2300004: etiquette
+    2300006: exterieur
+    2300008: metal
+    2300010: trou
+    3300000: anneau1
+    3300002: anneau2
+    3300004: etiquette
+    3300006: exterieur
+    3300008: metal
+    3300010: trou
+    4300000: trou
+    4300002: etiquette
+    4300004: metal
+    4300006: anneau1
+    4300008: anneau2
+    4300010: exterieur
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Classeur_Couleur
+    second: {fileID: 2100000, guid: 31b0302bafa54d94aaecfd51efc48ab5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Classeur_Etiquette
+    second: {fileID: 2100000, guid: 77504153e3cf90d4eb1246a0c21c306c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Classeur_Metal
+    second: {fileID: 2100000, guid: 356417221256763489812c459361b9c0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

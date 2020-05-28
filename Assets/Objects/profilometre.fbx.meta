@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: 99aa742e989039347a915314176498c9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BasePlateau
+    100002: Boitier
+    100004: Bolt
+    100006: nappe1
+    100008: nappe1Base
+    100010: nappe2
+    100012: nappe2Base
+    100014: petitTuyau
+    100016: petitTuyauBase
+    100018: Plateau
+    100020: pointeur
+    100022: Porte
+    100024: //RootNode
+    100026: rail
+    100028: Structure
+    100030: tuyau
+    100032: tuyauBase
+    400000: BasePlateau
+    400002: Boitier
+    400004: Bolt
+    400006: nappe1
+    400008: nappe1Base
+    400010: nappe2
+    400012: nappe2Base
+    400014: petitTuyau
+    400016: petitTuyauBase
+    400018: Plateau
+    400020: pointeur
+    400022: Porte
+    400024: //RootNode
+    400026: rail
+    400028: Structure
+    400030: tuyau
+    400032: tuyauBase
+    2100000: profilo_vis
+    2100002: profilo_supportbas
+    2100004: profilo_tuyau2
+    2100006: profilo_nappe
+    2100008: No Name
+    2100010: profilo_tuyau1
+    2100012: profilo_tete
+    2100014: profilo_supportinterieur
+    2100016: profilo_support rond
+    2100018: profilo_porte
+    2100020: profilo_boitier
+    2300000: BasePlateau
+    2300002: Boitier
+    2300004: Bolt
+    2300006: nappe1
+    2300008: nappe1Base
+    2300010: nappe2
+    2300012: nappe2Base
+    2300014: petitTuyau
+    2300016: petitTuyauBase
+    2300018: Plateau
+    2300020: pointeur
+    2300022: Porte
+    2300024: rail
+    2300026: Structure
+    2300028: tuyau
+    2300030: tuyauBase
+    3300000: BasePlateau
+    3300002: Boitier
+    3300004: Bolt
+    3300006: nappe1
+    3300008: nappe1Base
+    3300010: nappe2
+    3300012: nappe2Base
+    3300014: petitTuyau
+    3300016: petitTuyauBase
+    3300018: Plateau
+    3300020: pointeur
+    3300022: Porte
+    3300024: rail
+    3300026: Structure
+    3300028: tuyau
+    3300030: tuyauBase
+    4300000: Bolt
+    4300002: BasePlateau
+    4300004: petitTuyauBase
+    4300006: petitTuyau
+    4300008: nappe2Base
+    4300010: nappe1Base
+    4300012: nappe2
+    4300014: nappe1
+    4300016: tuyauBase
+    4300018: tuyau
+    4300020: pointeur
+    4300022: rail
+    4300024: Structure
+    4300026: Plateau
+    4300028: Porte
+    4300030: Boitier
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: a5f023515067bf14b89a0f0cdda524c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: profilo_boitier
+    second: {fileID: 2100000, guid: 411911c6436a9aa45b4b1ab05a597ce4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: profilo_nappe
+    second: {fileID: 2100000, guid: e42d18bd0cead404f8fba6bde7959fd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: profilo_porte
+    second: {fileID: 2100000, guid: 2fc59c0025cd6d646a14be134506ea53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: profilo_support rond
+    second: {fileID: 2100000, guid: 654112f0da4e2534497befddb704f348, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: profilo_supportbas
+    second: {fileID: 2100000, guid: ec8577bde4f04b14890d0161253fca50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: profilo_supportinterieur
+    second: {fileID: 2100000, guid: 589bd082ae273394d89a003e4e22c2f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: profilo_tete
+    second: {fileID: 2100000, guid: 6bf76158fc7b5db4686551f8fc3f6ded, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: profilo_tuyau1
+    second: {fileID: 2100000, guid: 4a6ca60b3d1e5284fa35f38ac5d0aee4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: profilo_tuyau2
+    second: {fileID: 2100000, guid: 6073f9df77e47d146a66681df0ec817d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: profilo_vis
+    second: {fileID: 2100000, guid: 582fee935f7c21f4eaddba4e10a941c8, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

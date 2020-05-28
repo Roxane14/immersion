@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: f2eaa6e9f12066d44819fa47d4ae97ff
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: avant
+    100002: bouton1
+    100004: bouton2
+    100006: bouton3
+    100008: bouton3.001
+    100010: bouton3b
+    100012: bouton4
+    100014: bouton4.001
+    100016: corps
+    100018: pied
+    100020: tour
+    100022: //RootNode
+    400000: avant
+    400002: bouton1
+    400004: bouton2
+    400006: bouton3
+    400008: bouton3.001
+    400010: bouton3b
+    400012: bouton4
+    400014: bouton4.001
+    400016: corps
+    400018: pied
+    400020: tour
+    400022: //RootNode
+    2100000: tournette_metal
+    2100002: tournette_avant
+    2100004: tournette_bouton3b
+    2100006: tournette_bouton
+    2100008: tournette_boutonVert
+    2300000: avant
+    2300002: bouton1
+    2300004: bouton2
+    2300006: bouton3
+    2300008: bouton3.001
+    2300010: bouton3b
+    2300012: bouton4
+    2300014: bouton4.001
+    2300016: corps
+    2300018: pied
+    2300020: tour
+    3300000: avant
+    3300002: bouton1
+    3300004: bouton2
+    3300006: bouton3
+    3300008: bouton3.001
+    3300010: bouton3b
+    3300012: bouton4
+    3300014: bouton4.001
+    3300016: corps
+    3300018: pied
+    3300020: tour
+    4300000: bouton3.001
+    4300002: bouton4.001
+    4300004: avant
+    4300006: bouton3b
+    4300008: pied
+    4300010: tour
+    4300012: bouton4
+    4300014: bouton2
+    4300016: bouton1
+    4300018: bouton3
+    4300020: corps
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tournette_avant
+    second: {fileID: 2100000, guid: c8dadb7091b91c5418ddd2d3b2a3c41b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tournette_bouton
+    second: {fileID: 2100000, guid: 53e9ef548357f4543966a1a5bc6525ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tournette_bouton3b
+    second: {fileID: 2100000, guid: 9416ead569edaa34b93e2cae005f63a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tournette_boutonVert
+    second: {fileID: 2100000, guid: e9ee7042c98c2eb488b9be7519a28276, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tournette_metal
+    second: {fileID: 2100000, guid: 0f23331259324c44cb3ebc7a01acc63e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
