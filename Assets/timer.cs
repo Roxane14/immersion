@@ -5,7 +5,7 @@ using UnityEngine;
 public class timer : MonoBehaviour
 {
     float myInputValue;
-    public RealSpace3D.RealSpace3D_AudioSource monSon;
+    public GameObject cameraPrincipale;
 
 
     public GameObject panel;
@@ -25,8 +25,9 @@ public class timer : MonoBehaviour
     void Update()
     {
         myInputValue = Input.GetAxis("Oculus_GearVR_LThumbstickX");
+        Debug.Log(myInputValue);
         if(myInputValue==0){
-            monSon.rs3d_PlaySound();
+            cameraPrincipale.GetComponent<RealSpace3D.RealSpace3D_AudioSource>().rs3d_PlaySound();
         }
 
     }

@@ -3754,7 +3754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf0a8db2057adf84c9800e7cd052eb37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  monSon: {fileID: 2018736747}
+  cameraPrincipale: {fileID: 2085831844}
   panel: {fileID: 2121906660}
   text: {fileID: 274474503}
 --- !u!1 &423095070
@@ -4401,7 +4401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4580,7 +4580,6 @@ Transform:
   m_LocalPosition: {x: -12.597981, y: 0.6316179, z: 3.7118428}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2018736748}
   - {fileID: 941728752}
   - {fileID: 1694796174}
   m_Father: {fileID: 0}
@@ -7070,6 +7069,59 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 754540004}
   m_Mesh: {fileID: -1376510335894139440, guid: b3609b8cdcf863b47b369bbb8cb33320, type: 3}
+--- !u!1 &760800143 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: d7728ec8759016f44861ca31a1f3d862,
+    type: 3}
+  m_PrefabInstance: {fileID: 5057897578691683158}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &760800144
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760800143}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &760800145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760800143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
+--- !u!136 &760800146
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760800143}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.68482673
+  m_Height: 1.3696536
+  m_Direction: 1
+  m_Center: {x: -0.021830022, y: 0.0156461, z: 0.50644374}
 --- !u!1001 &766905628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14801,7 +14853,7 @@ PrefabInstance:
     - target: {fileID: 4087653809655266839, guid: 193366cc3feee4bc68bbac5183088721,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4087653809655266839, guid: 193366cc3feee4bc68bbac5183088721,
         type: 3}
@@ -14905,7 +14957,7 @@ PrefabInstance:
     - target: {fileID: 4087653809655266839, guid: 193366cc3feee4bc68bbac5183088721,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4087653809655266839, guid: 193366cc3feee4bc68bbac5183088721,
         type: 3}
@@ -14955,7 +15007,17 @@ PrefabInstance:
     - target: {fileID: 4235383578651948984, guid: 193366cc3feee4bc68bbac5183088721,
         type: 3}
       propertyPath: fSoundRange_MaxDist
-      value: 1.5
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4235383578651948984, guid: 193366cc3feee4bc68bbac5183088721,
+        type: 3}
+      propertyPath: sSourceName
+      value: Audio_Tutoriel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4235383578651948984, guid: 193366cc3feee4bc68bbac5183088721,
+        type: 3}
+      propertyPath: eATTENUATION_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 193366cc3feee4bc68bbac5183088721, type: 3}
@@ -16603,106 +16665,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1570735179}
   m_CullTransparentMesh: 0
---- !u!1001 &1575777352
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 489483989}
-    m_Modifications:
-    - target: {fileID: 6200515316419893300, guid: 193366cc3feee4bc68bbac5183088721,
-        type: 3}
-      propertyPath: m_Name
-      value: Audio_Marche
-      objectReference: {fileID: 0}
-    - target: {fileID: 4087653809655266839, guid: 193366cc3feee4bc68bbac5183088721,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.367982
-      objectReference: {fileID: 0}
-    - target: {fileID: 4087653809655266839, guid: 193366cc3feee4bc68bbac5183088721,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.3716179
-      objectReference: {fileID: 0}
-    - target: {fileID: 4087653809655266839, guid: 193366cc3feee4bc68bbac5183088721,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.4718428
-      objectReference: {fileID: 0}
-    - target: {fileID: 4087653809655266839, guid: 193366cc3feee4bc68bbac5183088721,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4087653809655266839, guid: 193366cc3feee4bc68bbac5183088721,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4087653809655266839, guid: 193366cc3feee4bc68bbac5183088721,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4087653809655266839, guid: 193366cc3feee4bc68bbac5183088721,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4087653809655266839, guid: 193366cc3feee4bc68bbac5183088721,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4087653809655266839, guid: 193366cc3feee4bc68bbac5183088721,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4087653809655266839, guid: 193366cc3feee4bc68bbac5183088721,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4087653809655266839, guid: 193366cc3feee4bc68bbac5183088721,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4235383578651948984, guid: 193366cc3feee4bc68bbac5183088721,
-        type: 3}
-      propertyPath: sAudioClipPath.Array.data[0]
-      value: Assets/RealSpace3D/Resources/RealSpace3D_Sounds/Footsteps indoors sound
-        effect  BurghRecords (Sound, Sound Effects, Free Sound Effects) WAV.wav
-      objectReference: {fileID: 0}
-    - target: {fileID: 4235383578651948984, guid: 193366cc3feee4bc68bbac5183088721,
-        type: 3}
-      propertyPath: sAudioClipLength.Array.data[0]
-      value: 00:01:05
-      objectReference: {fileID: 0}
-    - target: {fileID: 4235383578651948984, guid: 193366cc3feee4bc68bbac5183088721,
-        type: 3}
-      propertyPath: rsAudioClips.Array.data[0]
-      value: 
-      objectReference: {fileID: 8300000, guid: 0135f86c9180efa4aa719400de0d55c8, type: 3}
-    - target: {fileID: 4235383578651948984, guid: 193366cc3feee4bc68bbac5183088721,
-        type: 3}
-      propertyPath: theSoundOptions.Array.data[0].bLoopSound
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4235383578651948984, guid: 193366cc3feee4bc68bbac5183088721,
-        type: 3}
-      propertyPath: theSoundOptions.Array.data[0].bPlayOnStart
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4235383578651948984, guid: 193366cc3feee4bc68bbac5183088721,
-        type: 3}
-      propertyPath: theSoundOptions.Array.data[0].bMuteSound
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 193366cc3feee4bc68bbac5183088721, type: 3}
 --- !u!1 &1576109577 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100118, guid: e73a818f4f8111347a0a65ff804a4960,
@@ -24751,7 +24713,7 @@ MonoBehaviour:
   fSoundRange_MinDist: 0.5
   sSourceName: Door.001
   sAudioClipPath:
-  - Assets/RealSpace3D/Resources/RealSpace3D_Sounds/Door open.wav
+  - Assets/RealSpace3D/Resources/RealSpace3D_Sounds/DoorOpening.wav
   sAudioClipLength:
   - 00:00:00
   theSoundOptions:
@@ -24789,7 +24751,7 @@ MonoBehaviour:
   nPlayFromSecs: 0
   fPlayFromLength: 0
   rsAudioClips:
-  - {fileID: 8300000, guid: afaa693c78122a74c9d4f80547224a3b, type: 3}
+  - {fileID: 8300000, guid: 80d676f28573b2b4ab51915f1aa4482e, type: 3}
   tempAudioClips: []
 --- !u!1 &1996366746
 GameObject:
@@ -25594,24 +25556,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3144842170387017894, guid: a842e66241d09b84a972afb537a388a5,
     type: 3}
   m_PrefabInstance: {fileID: 4555226506127946962}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2018736747 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4235383578651948984, guid: 193366cc3feee4bc68bbac5183088721,
-    type: 3}
-  m_PrefabInstance: {fileID: 1575777352}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 960884537, guid: 6995e5f4125da4bd183d041c1e88ea91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &2018736748 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4087653809655266839, guid: 193366cc3feee4bc68bbac5183088721,
-    type: 3}
-  m_PrefabInstance: {fileID: 1575777352}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2023620718
 PrefabInstance:
@@ -26711,6 +26655,82 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2085831855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085831844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 960884537, guid: 6995e5f4125da4bd183d041c1e88ea91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eAMBISONICS_Type: 0
+  eATTENUATION_Type: 0
+  theBuildTarget: 3
+  bOptimize: 1
+  bShowAdvance: 0
+  bShowAudioClips: 1
+  bShowPlayFrom: 1
+  bShow3DProperties: 1
+  bShowAdvanceOptions: 1
+  bShowOptimization: 1
+  bShowMinRange: 0
+  bShowMaxRange: 0
+  bFastSpatState_Android: 
+  bFastSpatState_Desktop: 00
+  bFastSpatState_iOS: 
+  bUnityVersion_NAP: 0
+  fAdvanceUnitScaleFactor: 1
+  fSoundRange_MaxDist: 15
+  fSoundRange_MinDist: 0.5
+  sSourceName: CenterEyeAnchor
+  sAudioClipPath:
+  - Assets/RealSpace3D/Resources/RealSpace3D_Sounds/Step4.wav
+  sAudioClipLength:
+  - 00:00:00
+  theSoundOptions:
+  - fVolume: 1
+    fOriginalVolume: 1
+    fPitch: 1
+    fDopplerLevel: 1
+    bFastSpatialization: 0
+    bLoopSound: 1
+    bMuteSound: 0
+    bPlayOnStart: 0
+    bPlay3DSound: 0
+    bPlayAmbisonics: 0
+    bCombineAmbisonics: 0
+    bCombineAmbisonicsType: 0
+    bUseMicrophone: 0
+    bShowSoundOptions: 1
+    bWasPlaying: 0
+    bOptimizePauseOn: 0
+    bOptimizeResumeOn: 0
+    bFXReverb: 0
+    fFXReverbLength: 0
+    eFXReverbState: 1
+    bVirtualRoomChange_MuteSound: 0
+    bDopplerDamper: 0
+    bUseHRTFInterpolation: 0
+    theAudioMixerGroup: {fileID: 0}
+    lfDirectArrival: 0
+    lfEarlyReflections: 0
+    lfLateTail: 0
+  nNodeCount: 1
+  nShownClips: 1
+  nPlayFromHours: 0
+  nPlayFromMins: 0
+  nPlayFromSecs: 0
+  fPlayFromLength: 0
+  rsAudioClips:
+  - {fileID: 8300000, guid: 2ace9015de3038541af0d6c478048217, type: 3}
+  - {fileID: 8300000, guid: 80d676f28573b2b4ab51915f1aa4482e, type: 3}
+  - {fileID: 8300000, guid: 29fa2a68d21f323459dfdbc977b5ef42, type: 3}
+  - {fileID: 8300000, guid: 7cb31757ab3a1fe4287b8960d68feeca, type: 3}
+  tempAudioClips: []
 --- !u!1 &2087112138
 GameObject:
   m_ObjectHideFlags: 0
