@@ -18,14 +18,14 @@ public class Door_carte : MonoBehaviour
     {
         anim = GetComponent<Animator>();
     }
-     void OnTriggerEnter(Collider other)
+    /* void OnTriggerEnter(Collider other)
     {
-       // anim.SetTrigger("OpenDoor");
+        anim.SetTrigger("OpenDoor");
     }
     private void OnTriggerExit(Collider other)
     {
-        //anim.enabled = true;
-    }
+        anim.enabled = true;
+    }*/
     
     // Update is called once per frame
     void Update()
@@ -33,7 +33,7 @@ public class Door_carte : MonoBehaviour
         if(ouvert == 1)
        {
            anim.SetTrigger("OpenDoor");
-           //anim.enabled = true;
+           anim.enabled = true;
 
        } 
     }

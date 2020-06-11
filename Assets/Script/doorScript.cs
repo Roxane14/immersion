@@ -18,8 +18,9 @@ public class doorScript : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         anim.enabled = true;
-        maPorte.GetComponent<RealSpace3D.RealSpace3D_AudioSource>().enabled = true;
+        maPorte.GetComponent<RealSpace3D.RealSpace3D_AudioSource>().rs3d_PlaySound();
         //sound.enabled = true;
+        
     }
     
     // Update is called once per frame

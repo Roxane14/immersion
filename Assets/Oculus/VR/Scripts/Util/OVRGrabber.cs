@@ -123,7 +123,6 @@ public class OVRGrabber : MonoBehaviour
 	{
 		if (operatingWithoutOVRCameraRig)
 			OnUpdatedAnchors();
-            print("vvvvvvvvvvvvvvvvvvvvv");
 	}
 
     // Hands follow the touch anchors by calling MovePosition each frame to reach the anchor.
