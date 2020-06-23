@@ -15,7 +15,7 @@ public class timer : MonoBehaviour
     IEnumerator Start(){
         panel.SetActive(false);
         text.SetActive(false);
-        yield return new WaitForSeconds(480);
+        yield return new WaitForSeconds(180);
         panel.SetActive(true);
         text.SetActive(true);
     }
