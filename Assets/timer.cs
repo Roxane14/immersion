@@ -25,7 +25,7 @@ public class timer : MonoBehaviour
     void Update()
     {
         myInputValue = Input.GetAxis("Oculus_GearVR_LThumbstickX");
-        Debug.Log(myInputValue);
+        //Debug.Log(myInputValue);
         if(myInputValue==0){
             cameraPrincipale.GetComponent<RealSpace3D.RealSpace3D_AudioSource>().rs3d_PlaySound();
         }

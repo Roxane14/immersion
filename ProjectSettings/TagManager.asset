@@ -16,6 +16,7 @@ TagManager:
   - tag_aimant
   - Porte
   - Placard
+  - cube
   layers:
   - Default
   - TransparentFX
